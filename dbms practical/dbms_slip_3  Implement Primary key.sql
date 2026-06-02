@@ -73,3 +73,8 @@ Too Display inn Descending Order (Latest Joining Datee Firstt)
 SELECT * 
 FROM Employee
 ORDER BY Jdate DESC;
+
+6. Display records ass per Jdate 
+SELECT *
+FROM Employee
+ORDER BY Jdate;
