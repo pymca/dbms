@@ -26,3 +26,8 @@ WHERE City = 'Delhi';
 SELECT DName, COUNT(Emp_id) AS Total_Employees
 FROM Department
 GROUP BY DName;
+
+ Display record whose department name iss testing andd designing andd maintance 
+SELECT *
+FROM Department
+WHERE DName IN ('Testing', 'Designing', 'Maintenance');
